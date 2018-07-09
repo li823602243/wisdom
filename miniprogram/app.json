@@ -1,14 +1,56 @@
 {
   "pages": [
-    "pages/mine/mine",
     "pages/index/index",
-    "pages/login/login"
+    "pages/main/main",
+    "pages/login/login",
+    "pages/regist/regist",
+    "pages/mine/mine",
+    "pages/repair/repair",
+    "pages/repair/statistical",
+    "pages/engineer/engineer",
+    "pages/order/orderList",
+    "pages/evaluation/evaluation",
+    "pages/assets/assets",
+    "pages/assets/assetsAdd",
+    "pages/self/selfService",
+    "pages/sign/sign"
   ],
   "window": {
+    "backgroundColor": "#fff",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "智慧物业服务",
+    "navigationBarTitleText": "智慧物业云服务",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color":"#99999",
+    "selectedColor":"#41c0fe",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/order/orderList",
+        "text": "工单"
+      },
+      {
+        "pagePath": "pages/repair/repair",
+        "text": "报修"
+      },
+      {
+        "pagePath": "pages/self/selfService",
+        "text": "贴士"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
   },
   "plugins": {
     "myPlugin": {

@@ -41,6 +41,16 @@ App({
       //typeof cb == "function" & amp;&amp; cb(this.globalData.userInfo)
 
     } else {
+      wx.checkSession({
+        success: function () {
+          console.log("111111111")
+          //session_key 未过期，并且在本生命周期一直有效
+        },
+        fail: function () {
+          console.log("22222222")
+          // session_key 已经失效，需要重新执行登录流程
+        }
+      }),
       // 调用登录接口
       wx.login({
         success: function (res) {
@@ -49,7 +59,24 @@ App({
           // 在这里登录的时候会返回一个登录凭证，以前是发送一次请求换一个，现在好像是登录凭证有5分钟的有效时间
           // 从这种情况来看微信小程序的发展还是不错的，以前估计没多少人访问，现在访问量上去后后台的布局都重新架构了
           var code = res.code// 登录凭证
-
+          if (code) {
+            //调取本地服务器将code传的本地服务器换取openid以及session_key
+            util.commonAjax('login', 1, code)
+              .then(function (resolve) {
+                // 这里自然不用解释了，这是接口返回的参数
+                console.log(resolve)
+                if (resolve.data.status === '200') {
+                  // 成功
+                  wx.setStorageSync('userInfo', resolve.data.data)
+                  // 新手们注意一下，记得把下面这个写到这里，有好处。
+                  // typeof cb == "function" & amp;&amp; cb(that.globalData.userInfo)
+                } else {
+                  // 失败
+                }
+              })
+          } else {
+            console.log("获取用户登录状态失败:" + res.errMsg)
+          }
           // 获取用户信息
           // wx.getUserInfo({
           //   // 当你获取用户信息的时候会弹出一个弹框是否允许授权
@@ -96,7 +123,7 @@ App({
   */
   globalData: {
     userInfo: null,
-    url: '这是接口的url'
+    url: 'https://dsn.apizza.net/mock/7ebd4782bbe409fc2bba8df768d79faf/'
   }
 })
 

@@ -1,0 +1,99 @@
+/* pages/index/index.wxss */
+.i-wrapper{
+
+}
+.i-wrapper .i-banner {
+  position: relative;
+  width: 100%;
+  height: 360rpx;
+  background-image: url("https://unsplash.it/375/180?image=0");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.i-banner--message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 95rpx;
+  top: 77rpx;
+  color: #fff;
+}
+.i-banner--message .address{
+display:flex;
+flex-direction: row;
+justify-content: center;
+align-items: center; 
+margin-top: 25rpx;
+padding: 15rpx 25rpx 15rpx 15rpx;
+background-color: rgba(0, 0, 0, 0.9);
+border-radius: 50rpx;
+}
+.i-banner--message .address .address-name {
+margin-left: 10rpx;
+}
+.i-search {
+  position: absolute;
+  height: 72rpx;
+  background-color: #fff;
+  bottom: -36rpx;
+  width: 92%;
+  left: 4%;
+  border-radius: 50rpx;
+  padding: 0 20rpx 0 44rpx;
+  box-sizing: border-box;
+  -webkit-box-shadow:0px 0px 15px #333; 
+  -moz-box-shadow:0px 0px 15px #333; 
+}
+.i-search input {
+  height: 100%;
+}
+
+.i-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  padding: 75rpx 30rpx;
+}
+.i-content .i-content--list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 180rpx;
+  width: 330rpx;
+  background-color: red;
+  margin-bottom: 30rpx;
+  border-radius: 10rpx;
+}
+.i-content .i-content--list > .ico{
+  display: block;
+  height: 50rpx;
+  width: 50rpx;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 15rpx;
+}
+.i-content .i-content--list > .icon-repair{
+  background-image: url("https://unsplash.it/375/180?image=0")
+}
+.i-content .i-content--list > .icon-order{
+  background-image: url("https://unsplash.it/375/180?image=0")
+}
+.i-content .i-content--list > .icon-eval{
+  background-image: url("https://unsplash.it/375/180?image=0")
+}
+.i-content .i-content--list > .icon-assets{
+  background-image: url("https://unsplash.it/375/180?image=0")
+}
+.i-content .i-content--list > .icon-personal{
+  background-image: url("https://unsplash.it/375/180?image=0")
+}
+.i-content .i-content--list > .icon-selfTips{
+  background-image: url("https://unsplash.it/375/180?image=0")
+}
+.i-content .i-content--list > .title {
+  color: #fff;
+}

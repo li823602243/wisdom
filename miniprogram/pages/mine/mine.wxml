@@ -1,6 +1,5 @@
 <view>
-<open-data type="userAvatarUrl"></open-data>
-<open-data type="userNickName"></open-data>
+我的主界面
 </view>
  
 <view>请升级微信版本</view>

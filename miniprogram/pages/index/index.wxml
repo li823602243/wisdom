@@ -1,1 +1,42 @@
-<list />
+<view class="i-wrapper">
+  <view class="i-banner">
+    <view class='i-banner--message'>
+      <text class='name'>Hi,姓名</text>
+      <view class='address'>
+        <i-icon type="coordinates_fill" size="26" />
+        <text class='address-name'>南京</text>
+      </view>
+    </view>
+    <view class='i-search'>
+      <input placeholder='输入问题找答案'></input>
+      <icon class='icon icon-search'></icon>
+    </view>
+    <!-- <image src='https://unsplash.it/200/300?image=0'></image> -->
+  </view>
+  <view class='i-content'>
+    <view class='i-content--list'>
+      <icon class='ico icon-repair'></icon>
+      <text class='title'>报修</text>
+    </view>
+    <view class='i-content--list'>
+      <icon class='ico icon-order'></icon>
+      <text class='title'>工单</text>
+    </view>
+    <view class='i-content--list'>
+      <icon class='ico icon-eval'></icon>
+      <text class='title'>统计</text>
+    </view>
+    <view class='i-content--list'>
+      <icon class='ico icon-assets'></icon>
+      <text class='title'>资产</text>
+    </view>
+    <view class='i-content--list'>
+      <icon class='ico icon-personal'></icon>
+      <text class='title'>个人信息</text>
+    </view>
+    <view class='i-content--list'>
+      <icon class='ico icon-selfTips'></icon>
+      <text class='title'>自助小贴士</text>
+    </view>
+  </view>
+</view>
