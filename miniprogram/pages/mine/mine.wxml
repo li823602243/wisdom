@@ -1,5 +1,34 @@
-<view>
-我的主界面
+<view class='m-wrapper'>
+  <view class="m-banner">
+    <view class='m-avatar--content'>
+      <view class='m-header'>
+        <image class='avatar' src='https://unsplash.it/200/300?image=0'></image>
+        <icon class='icon icon-vip'></icon>
+      </view>
+      <text class='name'>李露丹</text>
+      <text class='company'>江苏传唱科技</text>
+    </view>
+  </view>
+  <view class='m-list'>
+  <i-cell-group>
+    <i-cell title="个人资料" is-link url="/pages/mine/person">
+      <i-icon slot="icon"  type="addressbook" size="20" color="#fc4947"   />
+    </i-cell>
+   <i-cell title="我的资产" is-link >
+      <i-icon slot="icon"  type="activity"  size="20" color="#80848f" />
+    </i-cell>
+    <i-cell title="维修地址" is-link >
+      <i-icon slot="icon"  type="coordinates"   size="20" color="#40c1fe" />
+    </i-cell>
+    <i-cell title="我的工单" is-link >
+      <i-icon slot="icon"  type="activity"   size="20" color="#3ad78b" />
+    </i-cell>
+    <i-cell title="数据统计" is-link >
+      <i-icon slot="icon"  type="dynamic"   size="20" color="#11a1f3" />
+    </i-cell>
+     <i-cell title="联系我们" is-link >
+      <i-icon slot="icon"  type="activity"   size="20" color="#ac48fd" />
+    </i-cell>
+  </i-cell-group>
+  </view>
 </view>
- 
-<view>请升级微信版本</view>

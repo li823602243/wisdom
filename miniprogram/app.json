@@ -1,12 +1,13 @@
 {
   "pages": [
+    "pages/index/index",
+    "pages/mine/person",
+    "pages/mine/mine",
     "pages/engineer/engBook",
     "pages/repair/repair",
-    "pages/index/index",
     "pages/main/main",
     "pages/login/login",
     "pages/regist/regist",
-    "pages/mine/mine",
     "pages/repair/statistical",
     "pages/engineer/engineer",
     "pages/order/orderList",

@@ -1,0 +1,11 @@
+<!--pages/mine/person.wxml-->
+<view class='p-wrapper'>
+<i-cell-group>
+    <i-cell title="姓名" value="李露丹"></i-cell>
+    <i-cell title="联系电话" value="17626021990"></i-cell>
+    <i-cell title="科室" value="网络部门"></i-cell>
+    <i-cell title="职务" value="教导主任"></i-cell>
+    <i-cell title="单位" value="南京传唱有限公司"></i-cell>
+    <i-cell title="单位地址" value="南京1914创意园"></i-cell>
+</i-cell-group>
+</view>

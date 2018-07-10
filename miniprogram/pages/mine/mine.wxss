@@ -1,31 +1,63 @@
 /* pages/mine/mine.wxss */
-.header {
-    margin: 90rpx 0 90rpx 50rpx;
-    border-bottom: 1px solid #ccc;
-    text-align: center;
-    width: 650rpx;
-    height: 300rpx;
-    line-height: 450rpx;
+page {
+  background-color: #f9f9f9;
 }
- 
-.header image {
-    width: 200rpx;
-    height: 200rpx;
+.m-banner {
+  height: 330rpx;
+  background-color: red;
+  padding-top: 96rpx;
+  box-sizing: border-box;
 }
- 
-.content {
-    margin-left: 50rpx;
-    margin-bottom: 90rpx;
+.m-avatar--content {
+  position: relative;
+  height: 300rpx;
+  width: 644rpx;
+  display: block;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 5rpx;
 }
- 
-.content text {
-    display: block;
-    color: #9d9d9d;
-    margin-top: 40rpx;
+.m-header {
+  /* position: relative; */
 }
- 
-.bottom {
-    border-radius: 80rpx;
-    margin: 70rpx 50rpx;
-    font-size: 35rpx;
+.m-header .avatar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  height: 200rpx;
+  width: 200rpx;
+  border-radius: 50%;
+  top: -15%;
+}
+.icon-vip {
+  position: absolute;
+  width: 60rpx;
+  height: 44rpx;
+  border-radius: 50rpx;
+  background-image: url("https://unsplash.it/375/180?image=0");
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 100rpx;
+  left: 58%;
+}
+.m-avatar--content .name{
+  display: block;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 78rpx;
+  font-size: 16px;
+}
+.m-avatar--content .company{
+  display: block;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 25rpx;
+  font-size: 16px;
+  color: #666666;
+}
+.m-list{
+  margin-top: 90rpx;
 }
