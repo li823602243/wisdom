@@ -1,0 +1,88 @@
+/* pages/engineer/engBook.wxss */
+/* pages/engineer/engineer.wxss */
+page{
+  height: 100%;
+  background-color: #f9f9f9;
+}
+.eb-wrapper {
+ 
+}
+.eb-wrapper .eb-avatar {
+  float: left;
+  height: 92rpx;
+  width: 92rpx;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-right: 28rpx;
+  margin-top: 40rpx;
+}
+.eb-wrapper  .eb-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70rpx;
+  line-height: 70rpx;
+  padding: 0 30rpx;
+  color: #5dccff;
+  overflow: hidden;
+}
+.eb-content--massage {
+  float: left;
+}
+.eb-content {
+ background-color: #fff;
+ padding: 25rpx 30rpx;
+ /* display: flex; */
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+ margin-top: 10rpx;
+ overflow: hidden;
+}
+.en-check {
+  display: block;
+  height: 48rpx;
+  width: 48rpx;
+  border-radius: 50%;
+  background-image: url("https://unsplash.it/375/180?image=0");
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: right;
+  margin-top: 70rpx;
+}
+.eb-content--massage .date {
+  font-size: 14px;
+  display: block;
+  line-height: 45rpx;
+  color: #666666;
+}
+.eb-massage--top {
+  margin-bottom: 20rpx;
+}
+.eb-massage--top .name {
+  color: #5dccff;
+  margin-right: 30rpx;
+}
+.eb-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 30rpx;
+  background-color: #fff;
+  box-sizing: border-box;
+  height: 103rpx;
+}
+.eb-search .eb-search--input {
+  width: 80%;
+  border: 1px solid #41c0fe;
+  font-size: 14px;
+  padding: 0 20rpx;
+  height: 66rpx;
+  border-radius: 5rpx;
+}
+.eb-search .search {
+  display: block;
+  height: 42rpx;
+  width: 42rpx;
+  background-image: url("https://unsplash.it/375/180?image=0");
+}

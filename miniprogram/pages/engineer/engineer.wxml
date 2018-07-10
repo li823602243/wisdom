@@ -1,2 +1,7 @@
 <!--pages/engineer/engineer.wxml-->
-<text>工程师界面</text>
+<view class='eb-wrapper'>
+<view class='eb-top'>
+<text class='eb-cancel'>取消</text>
+<text class='eb-submit'>提交</text>
+</view>
+</view>

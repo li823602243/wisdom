@@ -1,3 +1,63 @@
 <!--pages/repair/repair.wxml-->
 <view class='r-wrapper'>
+  <view class='r-pannel'>
+    <view class='r-pannel--address'>
+      <icon class='icon icon-address'></icon>
+      <text class='title'>报修地址</text>
+    </view>
+    <view class='r-row'>
+      <label>*</label>
+      <text class='name'>报修地址</text>
+      <i-icon type="enter" style='float:right' size="20" />
+    </view>
+    <view class='icon-link icon-link--left'></view>
+    <view class='icon-link icon-link--right'></view>
+  </view>
+  <view class='r-pannel'>
+    <view class='r-pannel--address'>
+      <icon class='icon icon-address'></icon>
+      <text class='title'>报修内容</text>
+    </view>
+    <view class='r-row r-row--m'>
+      <label>*</label>
+      <text class='name'>报修产品</text>
+      <i-icon type="enter" style='float:right' size="20" />
+    </view>
+    <view class='r-row'>
+      <label>*</label>
+      <text class='name'>故障类型</text>
+      <i-icon type="enter" style='float:right' size="20" />
+    </view>
+    <textarea class='r-row--text' placeholder='故障简介，限500字' placeholder-style="color:#a6c5ea" maxlength="500"></textarea>
+    <view class='r-picture'>
+      <view class='r-picture--list'>
+        <image src='https://unsplash.it/375/180?image=0'></image>
+        <icon class='r-close'></icon>
+      </view>
+      <view class='r-picture--list'>
+        <image src='https://unsplash.it/375/180?image=0'></image>
+        <icon class='r-close'></icon>
+      </view>
+      <icon class='r-picture--list r-picture--add'></icon>
+    </view>
+    <view class='icon-link icon-link--left'></view>
+    <view class='icon-link icon-link--right'></view>
+  </view>
+  <view class='r-pannel'>
+    <view class='r-pannel--address'>
+      <icon class='icon icon-address'></icon>
+      <text class='title'>预约维修</text>
+    </view>
+    <view class='r-row r-row--m'>
+      <label>*</label>
+      <text class='name'>预约时间</text>
+      <i-icon type="enter" style='float:right' size="20" />
+    </view>
+    <view class='r-row'>
+      <label>*</label>
+      <text class='name'>预约工程师</text>
+      <i-icon type="enter" style='float:right' size="20" />
+    </view>
+  </view>
+  <i-button i-class="sumit" bind:click="handleClick" type="ghost" shape="circle" size="small">提交</i-button>
 </view>

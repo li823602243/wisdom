@@ -1,11 +1,118 @@
 /* pages/repair/repair.wxss */
 
-page,.r-wrapper {
-  height: 100%;
+page {
+  min-height:150%;
   width: 100%;
   background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#21a6fe), to(#69ceff));
 }
 .r-wrapper {
- padding: 30rpx;
  box-sizing: border-box;
+  padding: 30rpx;
+}
+.r-wrapper .r-pannel {
+  position: relative;
+  background-color: #fff;
+  border-radius: 10rpx;
+  padding: 30rpx 30rpx 66rpx 30rpx;
+  margin-bottom: 20rpx;
+}
+.r-pannel .icon-link {
+  position: absolute;
+  bottom: 0;
+  height: 110rpx;
+  width: 22rpx;
+  z-index: 99999;
+  bottom: -60rpx;
+}
+.r-pannel .icon-link--left {
+    background-image: url("https://unsplash.it/375/180?image=0");
+    left: 40rpx;
+}
+.r-pannel .icon-link--right {
+    background-image: url("https://unsplash.it/375/180?image=0");
+    right: 40rpx;
+}
+.r-pannel--address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10rpx;
+}
+.r-pannel--address .icon-address {
+  display: block;
+  height: 45rpx;
+  width: 45rpx;
+  background-image: url("https://unsplash.it/375/180?image=0");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.r-pannel--address .title {
+  display: block;
+ color: #42befd;
+ margin-top: 16rpx;
+}
+.r-row {
+  height: 88rpx;
+  line-height: 88rpx;
+  border: 1px solid #e5f2fd;
+  padding: 0 30rpx;
+  background-color: #f3faff;
+  color: #a7c6ed;
+  margin-top: 22rpx;
+}
+.r-row--m {
+  margin-bottom: 20rpx;
+}
+.r-row label {
+  color: red;
+  vertical-align: middle;
+  margin-right: 20rpx;
+}
+.r-row--text {
+  margin-top: 22rpx;
+  border: 1px solid #e5f2fd;
+  background-color: #f3faff;
+  box-sizing: border-box;
+  height: 180rpx;
+  width: 100%;
+  padding: 24rpx 64rpx;
+  color: #bbd3f0;
+}
+.r-picture {
+  margin-top: 38rpx;
+  display: flex;
+}
+.r-picture .r-picture--list {
+  position: relative;
+  height: 110rpx;
+  width: 110rpx;
+  margin-right: 20rpx;
+  float: left;
+}
+.r-picture .r-picture--list image {
+  width: 100%;
+  height: 100%;
+}
+.r-picture--add {
+  display: block;
+  background-image: url("https://unsplash.it/375/180?image=0");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.r-close {
+  display: block;
+  position: absolute;
+  height: 33rpx;
+  width: 33rpx;
+  z-index: 9999;
+  top: -10rpx;
+  right: -10rpx;
+  border-radius: 50rpx;
+  background-image: url("https://unsplash.it/375/180?image=0");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.i-btn-ghost {
+  color: red;
 }

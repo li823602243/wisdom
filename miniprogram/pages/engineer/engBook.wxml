@@ -1,0 +1,116 @@
+<view class='eb-wrapper'>
+  <view class='eb-top'>
+    <text class='eb-cancel'>取消</text>
+    <text class='eb-submit'>提交</text>
+  </view>
+  <view class='eb-search'>
+    <input class='eb-search--input' placeholder='请输入员工姓名搜索'></input>
+    <icon class='search'></icon>
+  </view>
+  <view class='eb-content'>
+    <image class='eb-avatar' src='https://unsplash.it/200/300?image=0'></image>
+    <view class='eb-content--massage'>
+      <view class='eb-massage--top'>
+        <text class='name'>小明</text>
+        <text class='phone'>17626021990</text>
+      </view>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+    </view>
+    <icon class='en-check'></icon>
+  </view>
+  <view class='eb-content'>
+    <image class='eb-avatar' src='https://unsplash.it/200/300?image=0'></image>
+    <view class='eb-content--massage'>
+      <view class='eb-massage--top'>
+        <text class='name'>小明</text>
+        <text class='phone'>17626021990</text>
+      </view>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+    </view>
+    <icon class='en-check'></icon>
+  </view>
+  <view class='eb-content'>
+    <image class='eb-avatar' src='https://unsplash.it/200/300?image=0'></image>
+    <view class='eb-content--massage'>
+      <view class='eb-massage--top'>
+        <text class='name'>小明</text>
+        <text class='phone'>17626021990</text>
+      </view>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+    </view>
+    <icon class='en-check'></icon>
+  </view>
+  <view class='eb-content'>
+    <image class='eb-avatar' src='https://unsplash.it/200/300?image=0'></image>
+    <view class='eb-content--massage'>
+      <view class='eb-massage--top'>
+        <text class='name'>小明</text>
+        <text class='phone'>17626021990</text>
+      </view>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+    </view>
+    <icon class='en-check'></icon>
+  </view>
+   <view class='eb-content'>
+    <image class='eb-avatar' src='https://unsplash.it/200/300?image=0'></image>
+    <view class='eb-content--massage'>
+      <view class='eb-massage--top'>
+        <text class='name'>小明</text>
+        <text class='phone'>17626021990</text>
+      </view>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+    </view>
+    <icon class='en-check'></icon>
+  </view>
+   <view class='eb-content'>
+    <image class='eb-avatar' src='https://unsplash.it/200/300?image=0'></image>
+    <view class='eb-content--massage'>
+      <view class='eb-massage--top'>
+        <text class='name'>小明</text>
+        <text class='phone'>17626021990</text>
+      </view>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+    </view>
+    <icon class='en-check'></icon>
+  </view>
+   <view class='eb-content'>
+    <image class='eb-avatar' src='https://unsplash.it/200/300?image=0'></image>
+    <view class='eb-content--massage'>
+      <view class='eb-massage--top'>
+        <text class='name'>小明</text>
+        <text class='phone'>17626021990</text>
+      </view>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+    </view>
+    <icon class='en-check'></icon>
+  </view>
+   <view class='eb-content'>
+    <image class='eb-avatar' src='https://unsplash.it/200/300?image=0'></image>
+    <view class='eb-content--massage'>
+      <view class='eb-massage--top'>
+        <text class='name'>小明</text>
+        <text class='phone'>17626021990</text>
+      </view>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+      <text class='date'>已派单: 2010.01.08 8:00~10:00</text>
+    </view>
+    <icon class='en-check'></icon>
+  </view>
+</view>
