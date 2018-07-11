@@ -1,0 +1,6 @@
+<import src="../../template/index.wxml"/>
+<view>
+// example.wxml
+<template is="areaPicker" data="{{...areaPicker}}" />
+
+</view>

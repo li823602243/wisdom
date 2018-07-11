@@ -1,0 +1,16 @@
+<!--pages/mine/connect.wxml-->
+<view class='c-wrapper'>
+  <view class='c-pannel'>
+    南京传唱软件科技有限公司坐落于南京秦淮河畔融科技、文化、商业为一体的1865创意产业园区内，公司成立于2010年，是最早从事慕课软件技术研究和开发的原厂商之一，在慕课资源精品化创作、精细化制作、开放式教学等方面拥有多项核心技术，公司多项技术达到市场领先水平。传唱软件首创“普惠”慕课概念，针对高校、教育城域网用户、政府、企事业单位、社会大众等领域推广慕课应用及运营解决方案。
+  </view>
+  <view class='c-list'>
+    <i-cell-group>
+      <i-cell title="电子邮箱" value="info@ccsing.com">
+        <i-icon slot="icon"  type="mail"   size="20" color="#7cdc83" />
+      </i-cell>
+      <i-cell title="热线电话" value="400-655-9563">
+        <i-icon  slot="icon" type="customerservice"    size="20" color="#42befd"/>
+      </i-cell>
+    </i-cell-group>
+  </view>
+</view>

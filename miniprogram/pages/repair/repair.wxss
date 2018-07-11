@@ -116,3 +116,8 @@ page {
 .i-btn-ghost {
   color: red;
 }
+.s-company {
+  font-size: 14px;
+  padding: 20rpx;
+  background-color: #eee;
+}

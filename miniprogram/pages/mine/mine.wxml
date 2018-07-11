@@ -26,7 +26,7 @@
     <i-cell title="数据统计" is-link >
       <i-icon slot="icon"  type="dynamic"   size="20" color="#11a1f3" />
     </i-cell>
-     <i-cell title="联系我们" is-link >
+     <i-cell title="联系我们" is-link url="/pages/mine/connect">
       <i-icon slot="icon"  type="activity"   size="20" color="#ac48fd" />
     </i-cell>
   </i-cell-group>

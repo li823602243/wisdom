@@ -1,2 +1,68 @@
 <!--pages/self/selfService.wxml-->
-<text>自助服务</text>
+<view class='s-wrapper'>
+  <image class='avatar' src='https://unsplash.it/500/360?image=0'></image>
+  <view class='s-tab'>
+    <view class='s-tab-list'>
+      <picker value="{{index}}" range="{{arrayProduct}}">
+        <text class="name">产品</text>
+        <text class="ico-choose"></text>
+      </picker>
+    </view>
+    <view class='s-tab-list active'>
+      <picker value="{{index}}" range="{{arrayName}}">
+        <text class="name">厂商</text>
+        <text class="ico-choose"></text>
+      </picker>
+    </view>
+    <view class='s-tab-list'>
+      <picker value="{{index}}" range="{{arrayCompany}}">
+        <text class="name">单位</text>
+        <text class="ico-choose"></text>
+      </picker>
+    </view>
+    <view class='s-tab-list'>
+      <picker value="{{index}}" range="{{arrayType}}">
+        <text class="name">故障类型</text>
+        <text class="ico-choose"></text>
+      </picker>
+    </view>
+  </view>
+  <view class='s-content'>
+    <view class='s-company'>
+      <text>江苏传唱科技有限公司</text>
+      <i-icon type="close" color="#40c1fe" style="float:right" />
+    </view>
+    <view class='s-company'>
+      <text>故障故障故障类型显示器不亮类型显示器不亮故障类型显示器不亮类型显示器不亮</text>
+      <i-icon type="close" style="float:right"  color="#40c1fe" />
+    </view>
+    <view class='s-pannel'>
+      <view class='s-title'>
+        <icon class='icon s-icon--book'></icon>
+        <text class='title'>此处是故障类型</text>
+      </view>
+      <text class='content'>此处是接解决的大担惊受此处是接解决的大担惊受怕怕手动加阿萨德破此处是接解决的大担惊受怕怕手动加阿萨德破怕怕手动加阿萨德破</text>
+    </view>
+        <view class='s-pannel'>
+      <view class='s-title'>
+        <icon class='icon s-icon--book'></icon>
+        <text class='title'>此处是故障类型</text>
+      </view>
+      <text class='content'>此处是接解决的大担惊受此处是接解决的大担惊受怕怕手动加阿萨德破此处是接解决的大担惊受怕怕手动加阿萨德破怕怕手动加阿萨德破</text>
+    </view>
+        <view class='s-pannel'>
+      <view class='s-title'>
+        <icon class='icon s-icon--book'></icon>
+        <text class='title'>此处是故障类型</text>
+      </view>
+      <text class='content'>此处是接解决的大担惊受此处是接解决的大担惊受怕怕手动加阿萨德破此处是接解决的大担惊受怕怕手动加阿萨德破怕怕手动加阿萨德破</text>
+    </view>
+        <view class='s-pannel'>
+      <view class='s-title'>
+        <icon class='icon s-icon--book'></icon>
+        <text class='title'>此处是故障类型</text>
+      </view>
+      <text class='content'>此处是接解决的大担惊受此处是接解决的大担惊受怕怕手动加阿萨德破此处是接解决的大担惊受怕怕手动加阿萨德破怕怕手动加阿萨德破</text>
+    </view>
+  </view>
+</view>

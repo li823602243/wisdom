@@ -1,1 +1,83 @@
 /* pages/evaluation/evaluation.wxss */
+.e-wrapper {
+padding: 22rpx 30rpx;
+}
+.e-wrapper .eb-avatar {
+  float: left;
+  height: 92rpx;
+  width: 92rpx;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-right: 28rpx;
+}
+.e-wrapper  .eb-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70rpx;
+  line-height: 70rpx;
+  padding: 0 30rpx;
+  color: #5dccff;
+  overflow: hidden;
+}
+.eb-content--massage {
+  float: left;
+}
+.eb-content {
+ background-color: #fff;
+ padding: 25rpx 30rpx;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: flex-start;
+ overflow: hidden;
+ border-radius: 10rpx;
+}
+.eb-content--massage .date {
+  font-size: 15px;
+  display: block;
+  line-height: 45rpx;
+  color: #666666;
+}
+.eb-massage--top {
+  margin-bottom: 20rpx;
+}
+.eb-massage--top .name {
+  color: #5dccff;
+  margin-right: 30rpx;
+}
+
+.e-pannel {
+  margin: 20rpx 0;
+  background-color: #fff;
+  padding: 20rpx 40rpx;
+  border-radius: 10rpx;
+}
+.e-pannel .e-pannel--list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 15px;
+  color: #666666;
+  border-bottom: 1rpx solid #cccccc;
+}
+.e-pannel .e-pannel--list:last-child {
+  border-bottom: none;
+}
+.e-textarea {
+  background-color: #fff;
+  width: 100%;
+  padding: 35rpx 40rpx;
+  font-size: 15px;
+  height: 200rpx;
+  box-sizing: border-box;
+  border-radius: 10rpx;
+}
+.submit {
+  margin-top: 30rpx;
+  color: #5cc6fd;
+  background-color: #f3faff;
+  border: 1rpx solid #41c0fe;
+}

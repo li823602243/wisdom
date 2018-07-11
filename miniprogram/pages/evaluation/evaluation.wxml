@@ -1,2 +1,41 @@
 <!--pages/evaluation/evaluation.wxml-->
-<text>评价</text>
+<view class='e-wrapper'>
+  <view class='eb-content'>
+    <image class='eb-avatar' src='https://unsplash.it/200/300?image=0'></image>
+    <view class='eb-content--massage'>
+      <view class='eb-massage--top'>
+        <text class='name'>小明</text>
+        <text class='phone'>17626021990</text>
+      </view>
+      <text class='date'>上门时间: 2010.01.08 8:00</text>
+    </view>
+  </view>
+  <view class='e-pannel'>
+    <view class='e-pannel--list'>
+      <text>及时上门服务</text>
+      <i-cell>
+        <i-rate bind:change="onChange1" 
+            value="{{starIndex1}}">
+        </i-rate>
+      </i-cell>
+    </view>
+    <view class='e-pannel--list'>
+      <text>专业程度</text>
+      <i-cell>
+        <i-rate bind:change="onChange2" 
+            value="{{starIndex2}}">
+        </i-rate>
+      </i-cell>
+    </view>
+    <view class='e-pannel--list'>
+      <text>服务态度</text>
+      <i-cell>
+        <i-rate bind:change="onChange3" 
+            value="{{starIndex3}}">
+        </i-rate>
+      </i-cell>
+    </view>
+  </view>
+  <textarea class='e-textarea' placeholder='其他想说的'></textarea>
+  <button class='submit'>提交</button>
+</view>

@@ -1,1 +1,99 @@
 /* pages/self/selfService.wxss */
+.s-wrapper .avatar {
+  height: 360rpx;
+  width: 100%;
+}
+.s-tab {
+  overflow: hidden;
+  padding: 20rpx 0;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.s-tab .s-tab-list{
+  position: relative;
+  width: 25%;
+  float: left;
+  text-align: center;
+  font-size: 14px;
+}
+.s-tab .s-tab-list.active {
+  color: #41c0fe;
+}
+.s-tab .s-tab-list::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 1px;
+  background-color: #cccccc;
+  right: 0;
+  top: 0;
+}
+.s-tab .s-tab-list:last-child:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 0px;
+  background-color: transparent;
+  right: 0;
+}
+.ico-choose {
+    display: inline-block;
+    margin-left: 10rpx;
+    width: 0;
+    height: 0;
+    border-top: 14rpx solid #cccccc;
+    border-left: 10rpx solid transparent;
+    border-right: 10rpx solid transparent;
+}
+.s-company {
+  font-size: 14px;
+  padding: 20rpx;
+  background-color: #eee;
+  margin-bottom: 20rpx;
+  border-radius: 50rpx;
+  color: #666666;
+}
+.s-company text {
+  display: inline-block;
+  width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.s-content {
+  padding: 30rpx;
+}
+.s-pannel {
+  width: 100%;
+  background-color: #fff;
+  padding: 25rpx 30rpx;
+  box-sizing: border-box;
+  margin-top: 20rpx;
+  border-radius: 10rpx;
+}
+.s-pannel .s-title {
+  overflow: hidden;
+}
+.s-pannel .s-title .title {
+  font-size: 15px;
+  color: #000;
+  vertical-align: middle;
+}
+.s-pannel .s-title .s-icon--book {
+  height: 32rpx;
+  width: 32rpx;
+  background-image: url("https://unsplash.it/375/180?image=0");
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align: middle;
+  margin-right: 20rpx;
+}
+.content {
+  font-size: 14px; 
+  color: #333333;
+  margin-top: 20rpx;
+  display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 2;
+  overflow: hidden;
+}

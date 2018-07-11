@@ -1,6 +1,11 @@
 {
   "pages": [
+    "pages/repair/address",
     "pages/index/index",
+    "pages/mine/connect",
+    "pages/evaluation/evaluation",
+    "pages/repair/comment",
+    "pages/self/selfService",        
     "pages/mine/person",
     "pages/mine/mine",
     "pages/engineer/engBook",
@@ -11,10 +16,8 @@
     "pages/repair/statistical",
     "pages/engineer/engineer",
     "pages/order/orderList",
-    "pages/evaluation/evaluation",
     "pages/assets/assets",
     "pages/assets/assetsAdd",
-    "pages/self/selfService",
     "pages/sign/sign"
   ],
   "window": {

@@ -1,0 +1,17 @@
+/* pages/mine/connect.wxss */
+.c-wrapper {
+  padding: 20rpx 0;
+}
+.c-wrapper .c-pannel {
+  padding: 20rpx 30rpx;
+  background-color: #fff;
+  color: #343434;
+  font-size: 14px;
+  border-top: 1rpx solid #ebebeb;
+  border-bottom: 1rpx solid #ebebeb
+}
+.c-list {
+  margin-top: 20rpx;
+  border-top: 1rpx solid #ebebeb;
+  border-bottom: 1rpx solid #ebebeb
+}
